@@ -15,7 +15,7 @@
 ## Usage
 Similar to FlatList.
 
-### example
+### Example
 ```js
 <Grid
   numColumns={3}
