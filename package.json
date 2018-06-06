@@ -1,0 +1,32 @@
+{
+  "name": "react-native-infinite-scroll-grid",
+  "version": "0.1.0",
+  "description": "React Native infinite scroll grid component",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "rm -rf dist && tsc",
+    "build-for-demo": "tsc --outDir demo/react-native-infinite-scroll-grid",
+    "build-for-demo:watch": "tsc --watch --outDir demo/react-native-infinite-scroll-grid"
+  },
+  "keywords": ["react-native", "flatlist", "grid", "list", "infinite", "scroll"],
+  "author": "morishin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/morishin/react-native-infinite-scroll-grid.git"
+  },
+  "homepage": "https://github.com/morishin/react-native-infinite-scroll-grid",
+  "license": "MIT",
+  "jsx": "react-native",
+  "devDependencies": {
+    "@types/react": "^16.3.16",
+    "@types/react-native": "^0.55.17",
+    "react": "^16.4.0",
+    "react-native": "^0.55.4",
+    "typescript": "^2.9.1"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  }
+}
